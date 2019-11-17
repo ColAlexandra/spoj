@@ -1,3 +1,5 @@
+# check if the given number is the prime number
+
 these = True
 while these:
     i = int(input())
