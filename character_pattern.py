@@ -1,7 +1,7 @@
 # line < 100
 # column < 100
 def pattern():
-    pattern_list = ['*', '.']
+    pattern_list = ['*', '$']
     while True:
         try:
             line, column = input('Dear user! Right two numbers between 0 and 99.\nRemember, it has to be integer split one whitespace. Look the exemple below:\n7 10\n20 100.\nFollow this exemple.\nOk. Let\'s do it.\n').split()
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 
 
-#Code try for the right pattern print
+# Code try for the right pattern print
 # pattern = ['o', 'x']
 # for i in range(5): #row
 #     print()
